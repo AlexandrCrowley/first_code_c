@@ -4,7 +4,7 @@
 int question_about_Alice()
 {
 	char neirone[16];
-	printf("Do you thibk i'm better than voice assistant Alice?\n");
+	printf("Do you think i'm better than voice assistant Alice?\n");
 	scanf("%16s", neirone);
 	if (strcmp(neirone, "Yes") == 0)
 	{
